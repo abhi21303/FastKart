@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <form  id="myform" action="login.php" method="post">
+            
+            <h2>Log in</h2>
+            <div class="login-container">
+                <div class="input-group">
+                    <input type="text" placeholder="User Id" id="uid" name="uid">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Password" id="pass" name="password">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <button id="btn1" onclick="validateform()" name="submit">Login</button>
+
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastKart</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="topbar">
+        <ul>
+            <a href="index.html"><img src="logo.jpg" alt="FastKart" id="logo"></a>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+                    <button class="search-icon" onclick="toggleSearch()">
+                        <i class="fas fa-search"></i>
+                    </button>
+            </div>
+            <li id="becomeseller"><i class="fas fa-store"></i><a href=""> Become a Seller</a></li>
+            <li id="login"><i class="fas fa-user"></i><a href="login.html"> Log in</a></li>
+            <li id="cart"><i class="fas fa-shopping-cart"></i><a href="cart.html"> Cart</a></li>
+        </ul>
+        
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="deals.html">Top Deals</a></li>
+            <li><a href="mobile.html">Mobiles</a></li>
+            <li><a href="electronics.html">Electronics</a></li>
+            <li><a href="tv.html">TV & Appliances</a></li>
+            <li><a href="fasion.html">Fasion</a></li>
+            <li><a href="beauty.html">Beauty</a></li>
+            <li><a href="grocery.html">Grocery</a></li>
+        </ul>
+    </div>
+    
+    <button class="slide-button" id="leftbtn" onclick="prev()">&lt;</button>
+    <button class="slide-button" id="rightbtn" onclick="next()">&gt;</button>
+    <div class="slider-container">
+           
+            <div class="slider">
+                 <a href="mobile.html"><img src="slide1.jpg" alt="" class="slideimg"></a>
+                 <a href="tv.html"><img src="slide2.jpg" alt="" class="slideimg"></a>
+                <a href="fasion.html"><img src="slide3.jpg" alt="" class="slideimg"></a>
+                
+            </div>
+            
+    </div>
+    <div class="footer-container">
+        <div class="contact-info">
+          <div class="email">
+            <a href="mailto:abhipatidar21303@gmail.com">abhipatidar21303@gmail.com</a>
+          </div>
+          <div class="contact-us">
+            <a href="contact.html">Contact Us</a>
+          </div>
+          <div class="phone">
+            Phone: 8200783539
+          </div>
+        </div>
+        <div class="copy-right">
+          &copy; 2023 FastKart. All rights reserved.
+        </div>
+      </div>
+    
+    <script src="slider.js"></script>
+</body>
+</html>

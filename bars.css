@@ -1,0 +1,184 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(209, 208, 207);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.topbar ul{
+    list-style: none;
+    display: flex;
+    
+}
+.topbar ul li{
+    /* border: 1px solid black; */
+    margin-right: 0;
+    
+   
+}
+#search{
+    width: 650px;
+    border-radius: 0px;
+}
+ #searchbar{ 
+margin-left: 130px;
+
+}
+
+#becomeseller{
+    /* margin-left:120px; */
+    border-radius: 13px;
+    padding: 15px;
+    margin: 0px 40px 0px 40px;
+}
+#login{
+    /* margin-left: 30px; */
+    border-radius: 13px;
+    padding: 15px;
+    margin: 0px 40px 0px 40px;
+}
+#cart{
+    /* margin-left: 30px; */
+    border-radius: 13px;
+    padding: 15px;
+    margin: 0px 40px 0px 40px;
+} 
+
+a{
+    text-decoration-line: none;
+}
+a{
+    color: black;
+}
+a:active{
+    color: green;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+.nav ul li{
+    margin: 40px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+    padding: 12px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    background-color: white;
+}
+.container{
+    background-color: white;
+}
+.nav li:hover{
+    box-shadow: 0 0 10px rgba(37, 37, 37, 0.5);
+        
+}
+.topbar li:hover{
+    box-shadow: 0 0 10px rgba(37, 37, 37, 0.5);
+}
+input[type="search"]{
+    border: none;
+    
+    color: #333;
+    padding: 15px;
+}
+#logo{
+    padding: auto;
+    height: 50px;
+    width: 50px;
+}
+.topbar{
+    display: flex;
+    background-color: white;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    margin-left: 0.5%;
+    
+}
+.nav{
+    margin-top: 85px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 75px;
+    
+}
+
+a:visited{
+    color:black;
+}
+
+/* Example CSS styles for the last container */
+.footer-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    width: 97%;
+  }
+  
+
+  .search-container {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 300px;
+    transition:width 0.3s ease;
+    margin-top: 9px;
+    margin-left: 60px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Icon styles (Font Awesome) */
+  .search-icon i {
+    font-size: 20px;
+    color: #777;
+    transition: color 0.3s ease;
+  }
+  
+  /* Search input focus styles */
+  .search-input:focus {
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Search icon color on focus */
+  .search-input:focus + .search-icon i {
+    color: #3498db;
+  }
